@@ -1,7 +1,7 @@
-ro.build.model=ASUS_Z01HDA
+ro.build.model=ASUS_Z01HD
 ro.build.device=Z01H
-ro.build.product=ZE553KL
-# may remove later
 ro.product.device=ASUS_Z01H_1
-ro.product.model=ASUS_Z01HDA
-ro.product.name=OPEN_Phone
+ro.product.model=ASUS_Z01HD
+# for stock ROM
+ro.build.product=Z01H
+ro.build.asus.sku=WW
