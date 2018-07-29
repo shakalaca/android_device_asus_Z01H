@@ -1,7 +1,7 @@
-ro.build.model=ASUS_Z01HD
+ro.build.model=ASUS_Z01H
 ro.build.device=Z01H
 ro.product.device=ASUS_Z01H_1
-ro.product.model=ASUS_Z01HD
+ro.product.model=ASUS_Z01HDA
 # for stock ROM
 ro.build.product=Z01H
 ro.build.asus.sku=WW

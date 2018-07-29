@@ -1,6 +1,9 @@
 import init.recovery.qcom_decrypt.rc
 
 on init
+    wait /dev/block/platform/soc/${ro.boot.bootdevice}
+    symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+
     insmod /sbin/texfat.ko
 
     start copy_fingerprint
