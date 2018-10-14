@@ -22,7 +22,7 @@ include $(call all-subdir-makefiles,$(LOCAL_PATH))
 include $(CLEAR_VARS)
 
 BOARD_RECOVERY_IMAGE_PREPARE := \
-  sed -i 's/ro.build.date.utc=.*/ro.build.date.utc=1520323350/g' $(TARGET_RECOVERY_ROOT_OUT)/default.prop
+  sed -i 's/ro.build.date.utc=.*/ro.build.date.utc=1520323350/g' $(TARGET_RECOVERY_ROOT_OUT)/prop.default
 
 TEXFAT_MODULE := $(TARGET_RECOVERY_ROOT_OUT)/sbin/texfat.ko
 $(TEXFAT_MODULE): $(ANDROID_PRODUCT_OUT)/kernel
